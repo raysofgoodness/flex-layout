@@ -89,15 +89,11 @@ body {
 	color: #d5c4b2;
 	text-transform: uppercase;
 	padding: 24px 48px;
-	align-self: flex-start;
 	border-bottom: 1px solid #d5c4b2;
+	display: inline-block;
 }
 .section p {
 	line-height: 1.31;
 	margin: 24px 48px;
 	text-align: left;
-}
-.content {
-	display: flex;
-	flex-direction: column;
 }
