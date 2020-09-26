@@ -18,18 +18,13 @@ body {
 	max-width: 100%;
 }
 .wrapper {
-	display: flex;
-	flex-flow: column;
 	min-height: 100vh;
-	max-width: 1024px;
+	width: 1024px;
 	margin: 0 auto;
 }
 .header {
-	width: 100%;
 	background-color: #000000;
 	color: #ffffff;
-}
-.header__top {
 	display: flex;
 	justify-content: space-between;
 	padding: 24px 48px;
@@ -42,8 +37,6 @@ body {
 .menu__list-item {
 	display: inline-block;
 	vertical-align: top;
-}
-.menu__list-item + .menu__list-item {
 	margin-left: 30px;
 }
 .menu__list-link:hover {
@@ -52,7 +45,6 @@ body {
 }
 .main {
 	display: flex;
-	flex-grow: 1;
 }
 .sidebar {
 	padding: 32px;
@@ -90,9 +82,9 @@ body {
 .content {
 	align-self: flex-start;
 	border-left: 1px solid #d5c4b2;
+	flex-grow: 1;
 }
 .section p {
 	line-height: 1.31;
 	margin: 24px 48px;
-	text-align: left;
 }
